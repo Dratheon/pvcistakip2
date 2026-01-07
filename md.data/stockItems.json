@@ -1,0 +1,10 @@
+[
+  { "id": "STK-101", "name": "MDF 18mm", "sku": "MDF-18", "unit": "plaka", "onHand": 120, "reserved": 45, "critical": 80, "supplier": "Nova Orman", "color": "BYZ", "colorCode": "BYZ" },
+  { "id": "STK-102", "name": "Laminat Kapak", "sku": "LAM-KPK", "unit": "adet", "onHand": 260, "reserved": 40, "critical": 150, "supplier": "Dekor Panel", "color": "ANT", "colorCode": "ANT" },
+  { "id": "STK-103", "name": "Menteşe Soft-Close", "sku": "MNT-SFT", "unit": "adet", "onHand": 320, "reserved": 210, "critical": 250, "supplier": "HingePro", "color": "-", "colorCode": "-" },
+  { "id": "STK-104", "name": "Ray Takımı 45cm", "sku": "RAY-45", "unit": "adet", "onHand": 180, "reserved": 110, "critical": 140, "supplier": "SlideTech", "color": "-", "colorCode": "-" },
+  { "id": "STK-105", "name": "Lake Boya (Beyaz)", "sku": "LKB-01", "unit": "kg", "onHand": 35, "reserved": 10, "critical": 20, "supplier": "Colora", "color": "BYZ", "colorCode": "BYZ" },
+  { "id": "STK-106", "name": "MDF 18mm Antrasit", "sku": "MDF-18-ANT", "unit": "plaka", "onHand": 50, "reserved": 10, "critical": 30, "supplier": "Nova Orman", "color": "ANT", "colorCode": "ANT" },
+  { "id": "STK-107", "name": "Laminat Kapak Ceviz", "sku": "LAM-KPK-CVZ", "unit": "adet", "onHand": 100, "reserved": 20, "critical": 50, "supplier": "Dekor Panel", "color": "CVZ", "colorCode": "CVZ" },
+  { "id": "STK-108", "name": "Lake Boya (Krem)", "sku": "LKB-02", "unit": "kg", "onHand": 25, "reserved": 5, "critical": 15, "supplier": "Colora", "color": "KRM", "colorCode": "KRM" }
+]

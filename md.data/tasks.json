@@ -1,0 +1,7 @@
+[
+  { "id": "TSK-204", "title": "Atölye kesim listesi", "owner": "Serkan Yıldız", "status": "Devam ediyor", "dueDate": "2025-12-22" },
+  { "id": "TSK-205", "title": "Montaj ekibi planı", "owner": "Seda Kurt", "status": "Planlandı", "dueDate": "2025-12-23" },
+  { "id": "TSK-206", "title": "Stok kontrolü - menteşe", "owner": "Ali Kurtuluş", "status": "Beklemede", "dueDate": "2025-12-24" },
+  { "id": "TSK-207", "title": "Müşteri onayı al", "owner": "Ebru Ak", "status": "Tamamlandı", "dueDate": "2025-12-21" }
+]
+

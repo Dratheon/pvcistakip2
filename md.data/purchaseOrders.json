@@ -1,0 +1,6 @@
+[
+  { "id": "PO-7781", "supplier": "HingePro", "total": "₺48,600", "status": "Teslim edildi", "expectedDate": "2025-12-22" },
+  { "id": "PO-7782", "supplier": "SlideTech", "total": "₺36,200", "status": "Yolda", "expectedDate": "2025-12-24" },
+  { "id": "PO-7783", "supplier": "Nova Orman", "total": "₺82,000", "status": "Onay bekliyor", "expectedDate": "2025-12-26" }
+]
+

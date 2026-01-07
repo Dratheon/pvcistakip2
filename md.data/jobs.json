@@ -1,0 +1,2964 @@
+[
+  {
+    "id": "JOB-3D9F9CAF",
+    "title": "ayar",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "SERVIS_KAPALI",
+    "startType": "SERVIS",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      }
+    ],
+    "measure": {},
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {
+      "note": "",
+      "fixedFee": 500,
+      "extraMaterials": [],
+      "completed": false,
+      "visits": [
+        {
+          "id": 1,
+          "appointmentDate": "2026-01-08",
+          "appointmentTime": "10:00",
+          "status": "completed",
+          "visitedAt": "2026-01-07T23:29",
+          "workNote": "menteşe değişimi",
+          "materials": "menteşe",
+          "extraCost": 150,
+          "completedAt": "2026-01-07T20:31:13.286Z"
+        },
+        {
+          "id": 2,
+          "appointmentDate": "2026-01-07",
+          "appointmentTime": "10:00",
+          "note": "eksik parça",
+          "visitedAt": "2026-01-07T10:00",
+          "status": "completed",
+          "workNote": "kol değişimi",
+          "materials": "kol",
+          "extraCost": 500,
+          "completedAt": "2026-01-07T20:31:49.201Z"
+        }
+      ],
+      "totalExtraCost": 650,
+      "totalCost": 1150,
+      "payments": {
+        "cash": 1000,
+        "card": 0,
+        "transfer": 0
+      },
+      "discount": {
+        "amount": 150,
+        "note": "indirim"
+      },
+      "paymentStatus": "paid",
+      "completedAt": "2026-01-07T20:32:44.522Z"
+    },
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-07T20:29:10.736158",
+        "action": "created",
+        "note": "startType=SERVIS"
+      },
+      {
+        "at": "2026-01-07T20:29:33.499705",
+        "action": "status.updated",
+        "note": "SERVIS_RANDEVU_BEKLIYOR -> SERVIS_RANDEVULU"
+      },
+      {
+        "at": "2026-01-07T20:29:59.097716",
+        "action": "status.updated",
+        "note": "SERVIS_RANDEVULU -> SERVIS_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-07T20:31:13.590577",
+        "action": "status.updated",
+        "note": "SERVIS_YAPILIYOR -> SERVIS_DEVAM_EDIYOR"
+      },
+      {
+        "at": "2026-01-07T20:31:32.392066",
+        "action": "status.updated",
+        "note": "SERVIS_DEVAM_EDIYOR -> SERVIS_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-07T20:31:49.506703",
+        "action": "status.updated",
+        "note": "SERVIS_YAPILIYOR -> SERVIS_ODEME_BEKLIYOR"
+      },
+      {
+        "at": "2026-01-07T20:32:44.525875",
+        "action": "status.updated",
+        "note": "SERVIS_ODEME_BEKLIYOR -> SERVIS_KAPALI"
+      }
+    ],
+    "createdAt": "2026-01-07T20:29:10.736158"
+  },
+  {
+    "id": "JOB-5AEE0372",
+    "title": "ölçü aa",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "FIYATLANDIRMA",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": "aaa"
+      },
+      "appointment": {
+        "date": "2026-01-08T10:00"
+      }
+    },
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-07T20:19:28.822658",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-07T20:19:41.902622",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-07T20:21:21.925629",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-07T20:21:57.732059",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-07T20:22:08.950317",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-07T20:23:29.632806",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-07T20:23:41.361282",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-07T20:23:44.628738",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> FIYATLANDIRMA"
+      }
+    ],
+    "createdAt": "2026-01-07T20:19:28.822658"
+  },
+  {
+    "id": "JOB-AA637BA1",
+    "title": "ölçü a",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "FIYAT_VERILDI",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-08T10:00"
+      }
+    },
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-07T20:06:07.499142",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-07T20:06:20.860147",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-07T20:06:30.817580",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-07T20:06:55.837914",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-07T20:07:23.025300",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-07T20:09:17.786022",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASILAMADI"
+      },
+      {
+        "at": "2026-01-07T20:10:31.870029",
+        "action": "status.updated",
+        "note": "ANLASILAMADI -> FIYAT_VERILDI"
+      }
+    ],
+    "createdAt": "2026-01-07T20:06:07.499142"
+  },
+  {
+    "id": "JOB-3AEFA194",
+    "title": "ölçü",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "ANLASILAMADI",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": "a ölçüsü"
+      },
+      "appointment": {
+        "date": "2026-01-08T10:00"
+      }
+    },
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-07T19:41:04.818361",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-07T19:41:40.748915",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-07T19:41:59.373125",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-07T19:42:39.019197",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-07T19:43:12.605207",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-07T19:50:57.276975",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASILAMADI"
+      }
+    ],
+    "createdAt": "2026-01-07T19:41:04.818361"
+  },
+  {
+    "id": "JOB-6DF2CE68",
+    "title": "ölçü aa",
+    "customerId": "CST-77BC35C2",
+    "customerName": "batuhan b",
+    "status": "OLCU_ALINDI",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-08T10:00"
+      }
+    },
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-07T19:05:47.071626",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-07T19:06:41.104962",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-07T19:13:43.492093",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      }
+    ],
+    "createdAt": "2026-01-07T19:05:47.071626"
+  },
+  {
+    "id": "JOB-4849BD67",
+    "title": "ölçü a",
+    "customerId": "CST-77BC35C2",
+    "customerName": "batuhan b",
+    "status": "OLCU_RANDEVU_BEKLIYOR",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      }
+    ],
+    "measure": {},
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-07T18:03:43.438152",
+        "action": "created",
+        "note": "startType=OLCU"
+      }
+    ],
+    "createdAt": "2026-01-07T18:03:43.438152"
+  },
+  {
+    "id": "JOB-83917AD9",
+    "title": "asdas",
+    "customerId": "CST-7BF96166",
+    "customerName": "Evren",
+    "status": "SERVIS_KAPALI",
+    "startType": "SERVIS",
+    "roles": [
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      },
+      {
+        "id": "ROLE-03",
+        "name": "Alüminyum Doğrama",
+        "description": "Alüminyum pencere, kapı, cephe sistemleri"
+      }
+    ],
+    "measure": {},
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {
+      "note": "",
+      "fixedFee": 500,
+      "extraMaterials": [],
+      "completed": false,
+      "visits": [
+        {
+          "id": 1,
+          "appointmentDate": "2026-01-08",
+          "appointmentTime": "10:00",
+          "status": "completed",
+          "visitedAt": "2026-01-08T17:34",
+          "workNote": "aaa",
+          "materials": "",
+          "extraCost": 100,
+          "completedAt": "2026-01-07T14:39:02.069Z"
+        }
+      ],
+      "totalExtraCost": 100,
+      "totalCost": 600,
+      "payments": {
+        "cash": 500,
+        "card": 0,
+        "transfer": 0
+      },
+      "discount": {
+        "amount": 100,
+        "note": "aa"
+      },
+      "paymentStatus": "paid",
+      "completedAt": "2026-01-07T14:43:30.716Z"
+    },
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-07T14:19:02.113222",
+        "action": "created",
+        "note": "startType=SERVIS"
+      },
+      {
+        "at": "2026-01-07T14:32:37.828825",
+        "action": "status.updated",
+        "note": "SERVIS_RANDEVU_BEKLIYOR -> SERVIS_RANDEVULU"
+      },
+      {
+        "at": "2026-01-07T14:34:55.675004",
+        "action": "status.updated",
+        "note": "SERVIS_RANDEVULU -> SERVIS_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-07T14:39:02.376542",
+        "action": "status.updated",
+        "note": "SERVIS_YAPILIYOR -> SERVIS_ODEME_BEKLIYOR"
+      },
+      {
+        "at": "2026-01-07T14:43:31.025269",
+        "action": "status.updated",
+        "note": "SERVIS_ODEME_BEKLIYOR -> SERVIS_KAPALI"
+      }
+    ],
+    "createdAt": "2026-01-07T14:19:02.113222"
+  },
+  {
+    "id": "JOB-5909557E",
+    "title": "servis ayar",
+    "customerId": "CST-7BF96166",
+    "customerName": "Evren",
+    "status": "SERVIS_KAPALI",
+    "startType": "SERVIS",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      }
+    ],
+    "measure": {},
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {
+      "note": "aaa",
+      "fixedFee": 500,
+      "extraMaterials": [],
+      "completed": false,
+      "visits": [
+        {
+          "id": 1,
+          "appointmentDate": "2026-01-07",
+          "appointmentTime": "16:00",
+          "status": "completed",
+          "visitedAt": "2026-01-07T13:35",
+          "workNote": "menteşe değişimi",
+          "materials": "menteşe",
+          "extraCost": 150,
+          "completedAt": "2026-01-07T10:35:53.082Z"
+        },
+        {
+          "id": 2,
+          "appointmentDate": "2026-01-07",
+          "appointmentTime": "10:00",
+          "note": "kapı kolu",
+          "visitedAt": "2026-01-07T10:00",
+          "status": "completed",
+          "workNote": "kapı kolu",
+          "materials": "kapı kolu",
+          "extraCost": 500,
+          "completedAt": "2026-01-07T10:36:26.083Z"
+        }
+      ],
+      "totalExtraCost": 650,
+      "totalCost": 1150,
+      "payments": {
+        "cash": 1000,
+        "card": 0,
+        "transfer": 0
+      },
+      "discount": {
+        "amount": 150,
+        "note": "iskonto"
+      },
+      "paymentStatus": "paid",
+      "completedAt": "2026-01-07T10:36:51.874Z"
+    },
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-07T10:32:58.791403",
+        "action": "created",
+        "note": "startType=SERVIS"
+      },
+      {
+        "at": "2026-01-07T10:34:15.759239",
+        "action": "status.updated",
+        "note": "SERVIS_RANDEVU_BEKLIYOR -> SERVIS_RANDEVULU"
+      },
+      {
+        "at": "2026-01-07T10:35:19.645790",
+        "action": "status.updated",
+        "note": "SERVIS_RANDEVULU -> SERVIS_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-07T10:35:53.399890",
+        "action": "status.updated",
+        "note": "SERVIS_YAPILIYOR -> SERVIS_DEVAM_EDIYOR"
+      },
+      {
+        "at": "2026-01-07T10:36:13.125952",
+        "action": "status.updated",
+        "note": "SERVIS_DEVAM_EDIYOR -> SERVIS_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-07T10:36:26.398848",
+        "action": "status.updated",
+        "note": "SERVIS_YAPILIYOR -> SERVIS_ODEME_BEKLIYOR"
+      },
+      {
+        "at": "2026-01-07T10:36:51.877496",
+        "action": "status.updated",
+        "note": "SERVIS_ODEME_BEKLIYOR -> SERVIS_KAPALI"
+      }
+    ],
+    "createdAt": "2026-01-07T10:32:58.791403"
+  },
+  {
+    "id": "JOB-FE2AF4BF",
+    "title": "yeni deneme",
+    "customerId": "CST-77BC35C2",
+    "customerName": "batuhan b",
+    "status": "FIYATLANDIRMA",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      },
+      {
+        "id": "ROLE-03",
+        "name": "Alüminyum Doğrama",
+        "description": "Alüminyum pencere, kapı, cephe sistemleri"
+      },
+      {
+        "id": "ROLE-04",
+        "name": "Sineklik",
+        "description": "Sineklik sistemleri, menteşeli, sürgülü"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": "",
+        "call": true,
+        "confirmed": true
+      },
+      "appointment": {
+        "date": "2026-01-08T10:00"
+      }
+    },
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-07T09:21:39.618841",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-07T09:22:29.090997",
+        "action": "measure.updated",
+        "note": null
+      }
+    ],
+    "createdAt": "2026-01-07T09:21:39.618841"
+  },
+  {
+    "id": "JOB-A77CEE85",
+    "title": "ayar aaa",
+    "customerId": "CST-7BF96166",
+    "customerName": "Evren",
+    "status": "SERVIS_KAPALI",
+    "startType": "SERVIS",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      }
+    ],
+    "measure": {},
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {
+      "note": "aa",
+      "fixedFee": 600,
+      "extraMaterials": [],
+      "completed": false,
+      "visits": [
+        {
+          "id": 1,
+          "appointmentDate": "2026-01-08",
+          "appointmentTime": "10:00",
+          "status": "completed",
+          "visitedAt": "2026-01-08T11:16",
+          "workNote": "tesipt eksik malzeme",
+          "materials": "meteşe ",
+          "extraCost": 150,
+          "completedAt": "2026-01-06T21:17:02.120Z"
+        },
+        {
+          "id": 2,
+          "appointmentDate": "2026-01-08",
+          "appointmentTime": "10:00",
+          "note": "kol gidecek",
+          "visitedAt": "2026-01-09T11:16",
+          "status": "completed",
+          "workNote": "kol değişti",
+          "materials": "kol",
+          "extraCost": 600,
+          "completedAt": "2026-01-06T21:17:49.873Z"
+        }
+      ],
+      "totalExtraCost": 750,
+      "totalCost": 1350,
+      "payments": {
+        "cash": 1000,
+        "card": 0,
+        "transfer": 0
+      },
+      "discount": {
+        "amount": 350,
+        "note": "iskonto"
+      },
+      "paymentStatus": "paid",
+      "completedAt": "2026-01-06T21:18:29.817Z"
+    },
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-06T21:16:21.252407",
+        "action": "created",
+        "note": "startType=SERVIS"
+      },
+      {
+        "at": "2026-01-06T21:16:34.426289",
+        "action": "status.updated",
+        "note": "SERVIS_RANDEVU_BEKLIYOR -> SERVIS_RANDEVULU"
+      },
+      {
+        "at": "2026-01-06T21:16:44.706989",
+        "action": "status.updated",
+        "note": "SERVIS_RANDEVULU -> SERVIS_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-06T21:17:02.431505",
+        "action": "status.updated",
+        "note": "SERVIS_YAPILIYOR -> SERVIS_DEVAM_EDIYOR"
+      },
+      {
+        "at": "2026-01-06T21:17:31.663199",
+        "action": "status.updated",
+        "note": "SERVIS_DEVAM_EDIYOR -> SERVIS_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-06T21:17:50.189128",
+        "action": "status.updated",
+        "note": "SERVIS_YAPILIYOR -> SERVIS_ODEME_BEKLIYOR"
+      },
+      {
+        "at": "2026-01-06T21:18:29.820533",
+        "action": "status.updated",
+        "note": "SERVIS_ODEME_BEKLIYOR -> SERVIS_KAPALI"
+      }
+    ],
+    "createdAt": "2026-01-06T21:16:21.252407"
+  },
+  {
+    "id": "JOB-57634C79",
+    "title": "ayar aa",
+    "customerId": "CST-7BF96166",
+    "customerName": "Evren",
+    "status": "SERVIS_KAPALI",
+    "startType": "SERVIS",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      }
+    ],
+    "measure": {},
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {
+      "note": "aa",
+      "fixedFee": 500,
+      "extraMaterials": [],
+      "completed": false,
+      "visits": [
+        {
+          "id": 1,
+          "appointmentDate": "2026-01-08",
+          "appointmentTime": "10:00",
+          "status": "completed",
+          "visitedAt": "2026-01-08T09:12",
+          "workNote": "aaasss",
+          "materials": "asdasd",
+          "extraCost": 1000,
+          "completedAt": "2026-01-06T21:12:31.641Z"
+        }
+      ],
+      "totalExtraCost": 1000,
+      "totalCost": 1500,
+      "payments": {
+        "cash": 1000,
+        "card": 0,
+        "transfer": 0
+      },
+      "discount": {
+        "amount": 500,
+        "note": "aa"
+      },
+      "paymentStatus": "paid",
+      "completedAt": "2026-01-06T21:12:50.364Z"
+    },
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-06T21:11:52.141551",
+        "action": "created",
+        "note": "startType=SERVIS"
+      },
+      {
+        "at": "2026-01-06T21:12:04.308114",
+        "action": "status.updated",
+        "note": "SERVIS_RANDEVU_BEKLIYOR -> SERVIS_RANDEVULU"
+      },
+      {
+        "at": "2026-01-06T21:12:15.052303",
+        "action": "status.updated",
+        "note": "SERVIS_RANDEVULU -> SERVIS_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-06T21:12:31.643826",
+        "action": "status.updated",
+        "note": "SERVIS_YAPILIYOR -> SERVIS_ODEME_BEKLIYOR"
+      },
+      {
+        "at": "2026-01-06T21:12:50.367927",
+        "action": "status.updated",
+        "note": "SERVIS_ODEME_BEKLIYOR -> SERVIS_KAPALI"
+      }
+    ],
+    "createdAt": "2026-01-06T21:11:52.141551"
+  },
+  {
+    "id": "JOB-6907AC43",
+    "title": "ayar a",
+    "customerId": "CST-7BF96166",
+    "customerName": "Evren",
+    "status": "SERVIS_KAPALI",
+    "startType": "SERVIS",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      }
+    ],
+    "measure": {},
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {
+      "note": "aaa",
+      "fixedFee": 750,
+      "extraMaterials": [],
+      "completed": false,
+      "visits": [
+        {
+          "id": 1,
+          "appointmentDate": "2026-01-08",
+          "appointmentTime": "10:00",
+          "status": "completed",
+          "visitedAt": "2026-01-08T12:00",
+          "workNote": "aaa",
+          "materials": "aa",
+          "extraCost": 100,
+          "completedAt": "2026-01-06T21:01:55.622Z"
+        }
+      ],
+      "totalExtraCost": 100,
+      "totalCost": 850,
+      "payments": {
+        "cash": 700,
+        "card": 0,
+        "transfer": 0
+      },
+      "discount": {
+        "amount": 150,
+        "note": "sadık"
+      },
+      "paymentStatus": "paid",
+      "completedAt": "2026-01-06T21:04:58.479Z"
+    },
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-06T21:00:49.835631",
+        "action": "created",
+        "note": "startType=SERVIS"
+      },
+      {
+        "at": "2026-01-06T21:01:04.716065",
+        "action": "status.updated",
+        "note": "SERVIS_RANDEVU_BEKLIYOR -> SERVIS_RANDEVULU"
+      },
+      {
+        "at": "2026-01-06T21:01:26.880879",
+        "action": "status.updated",
+        "note": "SERVIS_RANDEVULU -> SERVIS_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-06T21:01:55.932024",
+        "action": "status.updated",
+        "note": "SERVIS_YAPILIYOR -> SERVIS_ODEME_BEKLIYOR"
+      },
+      {
+        "at": "2026-01-06T21:04:58.793740",
+        "action": "status.updated",
+        "note": "SERVIS_ODEME_BEKLIYOR -> SERVIS_KAPALI"
+      }
+    ],
+    "createdAt": "2026-01-06T21:00:49.835631"
+  },
+  {
+    "id": "JOB-E766C2FC",
+    "title": "ayar",
+    "customerId": "CST-7BF96166",
+    "customerName": "Evren",
+    "status": "SERVIS_KAPALI",
+    "startType": "SERVIS",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      }
+    ],
+    "measure": {},
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {
+      "note": "ayarrrr",
+      "fixedFee": 750,
+      "extraMaterials": [],
+      "completed": false,
+      "appointmentDate": "2026-01-07",
+      "appointmentTime": "10:00",
+      "workNote": "yapıldı bir şeyler",
+      "materials": "menteşe",
+      "startedAt": "2026-01-06T20:34:03.596Z",
+      "completedAt": "2026-01-06T20:34:56.822Z",
+      "extraCost": 100,
+      "extraNote": "menteşe",
+      "totalCost": 850,
+      "paymentMethod": "transfer",
+      "paymentStatus": "pending",
+      "closeNote": ""
+    },
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-06T20:32:34.016045",
+        "action": "created",
+        "note": "startType=SERVIS"
+      },
+      {
+        "at": "2026-01-06T20:32:49.821212",
+        "action": "status.updated",
+        "note": "SERVIS_RANDEVU_BEKLIYOR -> SERVIS_RANDEVULU"
+      },
+      {
+        "at": "2026-01-06T20:34:03.599079",
+        "action": "status.updated",
+        "note": "SERVIS_RANDEVULU -> SERVIS_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-06T20:34:10.688403",
+        "action": "status.updated",
+        "note": "SERVIS_YAPILIYOR -> SERVIS_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-06T20:34:19.101562",
+        "action": "status.updated",
+        "note": "SERVIS_YAPILIYOR -> SERVIS_ODEME_BEKLIYOR"
+      },
+      {
+        "at": "2026-01-06T20:34:57.129557",
+        "action": "status.updated",
+        "note": "SERVIS_ODEME_BEKLIYOR -> SERVIS_KAPALI"
+      }
+    ],
+    "createdAt": "2026-01-06T20:32:34.016045"
+  },
+  {
+    "id": "JOB-EAE5AA5E",
+    "title": "iş a ",
+    "customerId": "CST-7BF96166",
+    "customerName": "Evren",
+    "status": "MUSTERI_OLCUSU_BEKLENIYOR",
+    "startType": "MUSTERI_OLCUSU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      },
+      {
+        "id": "ROLE-03",
+        "name": "Alüminyum Doğrama",
+        "description": "Alüminyum pencere, kapı, cephe sistemleri"
+      }
+    ],
+    "measure": {},
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-06T19:41:41.021936",
+        "action": "created",
+        "note": "startType=MUSTERI_OLCUSU"
+      }
+    ],
+    "createdAt": "2026-01-06T19:41:41.021936"
+  },
+  {
+    "id": "JOB-736BD729",
+    "title": "iş b",
+    "customerId": "CST-77BC35C2",
+    "customerName": "batuhan b",
+    "status": "OLCU_RANDEVU_BEKLIYOR",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      },
+      {
+        "id": "ROLE-03",
+        "name": "Alüminyum Doğrama",
+        "description": "Alüminyum pencere, kapı, cephe sistemleri"
+      },
+      {
+        "id": "ROLE-04",
+        "name": "Sineklik",
+        "description": "Sineklik sistemleri, menteşeli, sürgülü"
+      },
+      {
+        "id": "ROLE-05",
+        "name": "Plise Perde",
+        "description": "Plise perde sistemleri"
+      },
+      {
+        "id": "ROLE-07",
+        "name": "Jaluzi Sistemleri",
+        "description": "Jaluzi perde ve güneşlik sistemleri"
+      },
+      {
+        "id": "ROLE-06",
+        "name": "Panjur",
+        "description": "Panjur sistemleri, motorlu/manuel"
+      }
+    ],
+    "measure": {},
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-06T19:38:00.960695",
+        "action": "created",
+        "note": "startType=OLCU"
+      }
+    ],
+    "createdAt": "2026-01-06T19:38:00.960695"
+  },
+  {
+    "id": "JOB-FC3AD5F5",
+    "title": "iş a",
+    "customerId": "CST-77BC35C2",
+    "customerName": "batuhan b",
+    "status": "OLCU_RANDEVU_BEKLIYOR",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      }
+    ],
+    "measure": {},
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-06T19:37:00.481405",
+        "action": "created",
+        "note": "startType=OLCU"
+      }
+    ],
+    "createdAt": "2026-01-06T19:37:00.481405"
+  },
+  {
+    "id": "JOB-0FD5EF4B",
+    "title": "XAB",
+    "customerId": "CST-15",
+    "customerName": "Mira Mimarlık",
+    "status": "TEKLIF_TASLAK",
+    "startType": "OLCU",
+    "measure": {
+      "measurements": {
+        "note": "",
+        "call": false,
+        "confirmed": false
+      },
+      "appointment": {
+        "date": "2025-12-31T10:00"
+      }
+    },
+    "offer": {
+      "lines": [],
+      "total": 100000.0,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "logs": [
+      {
+        "at": "2025-12-30T15:11:03.608029",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2025-12-30T15:11:17.127277",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T15:11:32.612239",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-01-07T18:16:21.750235",
+        "action": "offer.updated",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "JOB-0DE5B696",
+    "title": "Balkon Kapatma",
+    "customerId": "CST-7BF96166",
+    "customerName": "Evren",
+    "status": "KAPALI",
+    "startType": "OLCU",
+    "measure": {
+      "measurements": {
+        "note": "",
+        "call": false,
+        "confirmed": true
+      },
+      "appointment": null
+    },
+    "offer": {
+      "lines": [],
+      "total": 1400000.0,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": 100000,
+        "card": 1000000,
+        "cheque": 290000,
+        "afterDelivery": 10000,
+        "cheques": [
+          {
+            "amount": 250000,
+            "due": "2026-01-22",
+            "bank": "x",
+            "branch": "z",
+            "number": "123"
+          },
+          {
+            "amount": 40000,
+            "due": "2026-02-05",
+            "bank": "",
+            "branch": "",
+            "number": ""
+          }
+        ]
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Laminat Kapak (LAM-KPK) - 5 adet (mevcut 220)"
+    },
+    "production": {
+      "status": "MONTAJA_HAZIR",
+      "note": null
+    },
+    "assembly": {
+      "schedule": {
+        "date": "2026-03-25T09:00",
+        "note": "",
+        "team": "Ekip 2"
+      },
+      "complete": {
+        "at": "2025-12-30T15:15:44.841363",
+        "proof": null
+      }
+    },
+    "finance": {
+      "total": 1400000.0,
+      "prePayments": {
+        "cash": 100000.0,
+        "card": 1000000.0,
+        "cheque": 290000.0
+      },
+      "finalPayments": {
+        "cash": 10000.0,
+        "card": 0.0,
+        "cheque": 0.0
+      },
+      "discount": null,
+      "closedAt": "2025-12-30T15:17:08.350484"
+    },
+    "logs": [
+      {
+        "at": "2025-12-30T13:36:25.247548",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2025-12-30T13:36:43.072598",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T13:37:27.390966",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T13:37:28.536798",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T13:40:42.942681",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T13:40:52.261446",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T13:42:20.986692",
+        "action": "stock.updated",
+        "note": "ready=True"
+      },
+      {
+        "at": "2025-12-30T13:42:47.684409",
+        "action": "production.updated",
+        "note": "ANLASMADA"
+      },
+      {
+        "at": "2025-12-30T13:42:53.830237",
+        "action": "production.updated",
+        "note": "ANLASMADA"
+      },
+      {
+        "at": "2025-12-30T13:42:58.403271",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-30T13:43:01.947189",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T13:43:10.075259",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T13:43:23.683744",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T13:43:26.799972",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-30T13:43:32.951020",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T14:09:25.157938",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T14:09:26.525885",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T14:09:26.790814",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T14:09:29.006051",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T14:29:34.650366",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T14:29:36.529562",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T14:29:36.864293",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T14:29:37.026639",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T14:29:37.160728",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T14:36:22.934965",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T14:36:39.135888",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T14:37:00.800170",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T14:41:39.065349",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T14:41:55.460581",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T14:43:39.320448",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T14:44:02.505706",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T14:55:52.404693",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T14:56:00.794816",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T14:56:12.340074",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T15:13:34.843616",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T15:13:55.314631",
+        "action": "stock.updated",
+        "note": "ready=True"
+      },
+      {
+        "at": "2025-12-30T15:14:02.233775",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-30T15:14:48.226813",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T15:15:06.551261",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T15:15:44.841363",
+        "action": "assembly.complete",
+        "note": "team=Ekip 2"
+      },
+      {
+        "at": "2025-12-30T15:16:32.709197",
+        "action": "finance.closed",
+        "note": "balance=0.0"
+      },
+      {
+        "at": "2025-12-30T15:16:49.093528",
+        "action": "finance.closed",
+        "note": "balance=0.0"
+      },
+      {
+        "at": "2025-12-30T15:17:02.682248",
+        "action": "finance.closed",
+        "note": "balance=0.0"
+      },
+      {
+        "at": "2025-12-30T15:17:08.350484",
+        "action": "finance.closed",
+        "note": "balance=0.0"
+      }
+    ]
+  },
+  {
+    "id": "JOB-40B5248A",
+    "title": "adana",
+    "customerId": "CST-CB67C570",
+    "customerName": "Mudo Tech",
+    "status": "MUHASEBE_BEKLIYOR",
+    "startType": "FIYATLANDIRMA",
+    "measure": {},
+    "offer": {
+      "lines": [],
+      "total": 200000.0,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": 150000,
+        "card": 0,
+        "cheque": 0,
+        "afterDelivery": 50000,
+        "cheques": []
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Rezervasyon: Laminat Kapak (LAM-KPK) 10 adet — Mevcut: 220"
+    },
+    "production": {
+      "status": "MONTAJA_HAZIR",
+      "note": null
+    },
+    "assembly": {
+      "schedule": {
+        "date": "",
+        "note": "",
+        "team": "111"
+      },
+      "complete": {
+        "at": "2025-12-30T13:35:17.753280",
+        "proof": null
+      }
+    },
+    "finance": {},
+    "logs": [
+      {
+        "at": "2025-12-30T12:40:46.882078",
+        "action": "created",
+        "note": "startType=FIYATLANDIRMA"
+      },
+      {
+        "at": "2025-12-30T12:42:04.611314",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T12:42:21.026457",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T12:42:30.967832",
+        "action": "stock.updated",
+        "note": "ready=True"
+      },
+      {
+        "at": "2025-12-30T12:42:34.211899",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-30T12:42:35.571714",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-30T12:42:36.169113",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-30T12:42:41.089840",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-30T12:42:53.599301",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T12:43:02.376749",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T12:43:03.791742",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T12:43:23.945184",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T12:43:29.650496",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T12:43:30.503106",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T12:44:37.664675",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T12:44:47.258770",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T13:34:54.293534",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T13:34:56.693429",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T13:34:56.992669",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T13:34:57.145180",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T13:34:57.798874",
+        "action": "assembly.complete",
+        "note": "team=111"
+      },
+      {
+        "at": "2025-12-30T13:35:12.478346",
+        "action": "assembly.complete",
+        "note": "team=111"
+      },
+      {
+        "at": "2025-12-30T13:35:14.391319",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T13:35:16.950895",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T13:35:17.753280",
+        "action": "assembly.complete",
+        "note": "team=111"
+      }
+    ]
+  },
+  {
+    "id": "JOB-B681050F",
+    "title": "SÖK TAK",
+    "customerId": "CST-12",
+    "customerName": "Nova Yapı",
+    "status": "KAPALI",
+    "startType": "OLCU",
+    "measure": {
+      "measurements": {
+        "note": "",
+        "call": true,
+        "confirmed": true
+      },
+      "appointment": null
+    },
+    "offer": {
+      "lines": [],
+      "total": 500000.0,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": 100000,
+        "card": 100000,
+        "cheque": 300000,
+        "afterDelivery": 0,
+        "cheques": [
+          {
+            "amount": 150000,
+            "due": "2026-01-30",
+            "bank": "isbank",
+            "branch": "nevsehir",
+            "number": "1",
+            "issueDate": ""
+          },
+          {
+            "amount": 150000,
+            "due": "2026-02-27",
+            "bank": "ziraat",
+            "branch": "nevsehir",
+            "number": "2",
+            "issueDate": ""
+          }
+        ]
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Rezervasyon: MDF 18mm (MDF-18) 10 plaka — Mevcut: 75"
+    },
+    "production": {
+      "status": "MONTAJA_HAZIR",
+      "note": null
+    },
+    "assembly": {
+      "schedule": {
+        "date": "2025-12-31T09:00",
+        "note": "",
+        "team": "Ekip 1"
+      },
+      "complete": {
+        "at": "2025-12-30T14:50:38.163034",
+        "proof": null
+      }
+    },
+    "finance": {
+      "total": 500000.0,
+      "prePayments": {
+        "cash": 100000.0,
+        "card": 100000.0,
+        "cheque": 300000.0
+      },
+      "finalPayments": {
+        "cash": 0.0,
+        "card": 0.0,
+        "cheque": 0.0
+      },
+      "discount": null,
+      "closedAt": "2025-12-30T14:50:50.500535"
+    },
+    "logs": [
+      {
+        "at": "2025-12-30T12:09:23.655344",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2025-12-30T12:10:25.707904",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T12:10:28.933932",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T12:11:18.409463",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T12:19:42.617722",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T12:39:46.387378",
+        "action": "stock.updated",
+        "note": "ready=True"
+      },
+      {
+        "at": "2025-12-30T12:40:01.959324",
+        "action": "production.updated",
+        "note": "ANLASMADA"
+      },
+      {
+        "at": "2025-12-30T14:29:59.520911",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T14:50:27.425421",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T14:50:38.163034",
+        "action": "assembly.complete",
+        "note": "team=Ekip 1"
+      },
+      {
+        "at": "2025-12-30T14:50:50.500535",
+        "action": "finance.closed",
+        "note": "balance=0.0"
+      }
+    ]
+  },
+  {
+    "id": "JOB-C7F62772",
+    "title": "ABC",
+    "customerId": "CST-77BC35C2",
+    "customerName": "batuhan b",
+    "status": "ANLASMADA",
+    "startType": "OLCU",
+    "measure": {
+      "measurements": {
+        "note": "",
+        "call": true,
+        "confirmed": false
+      },
+      "appointment": null
+    },
+    "offer": {
+      "lines": [],
+      "total": 0.0,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": 0,
+        "card": 0,
+        "cheque": 0,
+        "afterDelivery": 0,
+        "cheques": []
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Rezervasyon: Laminat Kapak (LAM-KPK) 10 adet — Mevcut: 220"
+    },
+    "production": {
+      "status": "ANLASMADA",
+      "note": null,
+      "agreementDate": "2026-01-01"
+    },
+    "assembly": {},
+    "finance": {},
+    "logs": [
+      {
+        "at": "2025-12-30T10:57:49.339446",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2025-12-30T11:29:18.320680",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T11:30:05.437839",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T11:30:23.503279",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T11:32:11.613152",
+        "action": "stock.updated",
+        "note": "ready=True"
+      },
+      {
+        "at": "2025-12-30T11:50:53.525751",
+        "action": "production.updated",
+        "note": "ANLASMADA"
+      }
+    ]
+  },
+  {
+    "id": "JOB-248550ED",
+    "title": "XYZ",
+    "customerId": "CST-13",
+    "customerName": "Luna Home",
+    "status": "ONAY_BEKLIYOR",
+    "startType": "OLCU",
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2025-12-27T01:55"
+      }
+    },
+    "offer": {
+      "lines": [],
+      "total": 150000.0,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": 0,
+        "card": 0,
+        "cheque": -1,
+        "cheques": [
+          {
+            "amount": -1,
+            "due": null
+          }
+        ]
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "logs": [
+      {
+        "at": "2025-12-30T10:55:16.226439",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2025-12-30T10:55:47.863692",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T10:56:14.568102",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T10:56:31.124810",
+        "action": "approval.started",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "JOB-9962DDE7",
+    "title": "pvc-cambalkon-sineklik-panjur-aluminyum dograma-perde",
+    "customerId": "CST-7BF96166",
+    "customerName": "Evren",
+    "status": "URETIMDE",
+    "startType": "FIYATLANDIRMA",
+    "measure": {},
+    "offer": {
+      "lines": [],
+      "total": 20000000.0,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": 0,
+        "card": 0,
+        "cheque": 0,
+        "cheques": []
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Rezervasyon: Menteşe Soft-Close (MNT-SFT) 10 adet — Mevcut: 110"
+    },
+    "production": {
+      "status": "URETIMDE",
+      "note": null
+    },
+    "assembly": {},
+    "finance": {},
+    "logs": [
+      {
+        "at": "2025-12-30T09:14:49.263501",
+        "action": "created",
+        "note": "startType=FIYATLANDIRMA"
+      },
+      {
+        "at": "2025-12-30T09:31:30.961400",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T09:37:54.852754",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T09:40:39.926650",
+        "action": "stock.updated",
+        "note": "ready=True"
+      },
+      {
+        "at": "2025-12-30T09:42:39.551759",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      }
+    ]
+  },
+  {
+    "id": "JOB-753F8B8B",
+    "title": "aadadaa",
+    "customerId": "CST-12",
+    "customerName": "Nova Yapı",
+    "status": "ONAY_BEKLIYOR",
+    "startType": "FIYATLANDIRMA",
+    "measure": {},
+    "offer": {
+      "lines": [],
+      "total": 1000000.0,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": 0,
+        "card": 0,
+        "cheque": 500000,
+        "cheques": [
+          {
+            "amount": 500000,
+            "due": null
+          }
+        ]
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "logs": [
+      {
+        "at": "2025-12-30T08:51:20.087082",
+        "action": "created",
+        "note": "startType=FIYATLANDIRMA"
+      },
+      {
+        "at": "2025-12-30T08:59:46.543020",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T09:12:25.885148",
+        "action": "approval.started",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "JOB-0424CFE6",
+    "title": "aaaa",
+    "customerId": "CST-77BC35C2",
+    "customerName": "batuhan b",
+    "status": "TEKLIF_TASLAK",
+    "startType": "OLCU",
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": null
+    },
+    "offer": {
+      "lines": [],
+      "total": 100000.0,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": 50000,
+        "card": 30000,
+        "cheque": 0,
+        "cheques": []
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Rezervasyon: Laminat Kapak (LAM-KPK) 10 adet — Mevcut: 220"
+    },
+    "production": {
+      "status": "MONTAJA_HAZIR",
+      "note": null
+    },
+    "assembly": {
+      "schedule": {
+        "date": "",
+        "note": "",
+        "team": ""
+      }
+    },
+    "finance": {},
+    "logs": [
+      {
+        "at": "2025-12-30T08:18:14.896934",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2025-12-30T08:18:34.056577",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T08:19:47.199606",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T08:20:01.091440",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T08:20:50.934500",
+        "action": "stock.updated",
+        "note": "ready=True"
+      },
+      {
+        "at": "2025-12-30T08:22:15.464765",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-30T08:22:19.261779",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T08:22:40.057069",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T08:23:44.790052",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T08:23:52.681567",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T08:27:41.209295",
+        "action": "stock.updated",
+        "note": "ready=True"
+      },
+      {
+        "at": "2025-12-30T08:27:44.738483",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-30T08:27:48.819706",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-30T08:27:57.044041",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T08:28:51.463303",
+        "action": "offer.updated",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "JOB-C89A5425",
+    "title": "balkon kapatma",
+    "customerId": "CST-77BC35C2",
+    "customerName": "batuhan b",
+    "status": "FIYATLANDIRMA",
+    "startType": "OLCU",
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": null
+    },
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "logs": [
+      {
+        "at": "2025-12-30T08:17:13.393864",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2025-12-30T08:23:17.981278",
+        "action": "measure.updated",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "JOB-B8789B30",
+    "title": "DENEME",
+    "customerId": "CST-13DC9D1D",
+    "customerName": "Nevsehir Pimapen",
+    "status": "KAPALI",
+    "startType": "OLCU",
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": null
+    },
+    "offer": {
+      "lines": [],
+      "total": 50000.0,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": -2,
+        "card": 0,
+        "cheque": 0,
+        "cheques": []
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": null
+    },
+    "production": {
+      "status": "MONTAJA_HAZIR",
+      "note": null
+    },
+    "assembly": {
+      "schedule": {
+        "date": "2025-12-26T15:57",
+        "note": "",
+        "team": "Ekip 1"
+      }
+    },
+    "finance": {
+      "total": 75000.0,
+      "payments": {
+        "cash": 15000,
+        "card": 30000,
+        "cheque": 30000
+      },
+      "discount": null
+    },
+    "logs": [
+      {
+        "at": "2025-12-28T12:58:13.510018",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2025-12-28T12:58:20.420670",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-28T12:58:24.545322",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-28T12:58:27.129161",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2025-12-29T14:56:32.540710",
+        "action": "stock.updated",
+        "note": "ready=True"
+      },
+      {
+        "at": "2025-12-29T14:56:47.930572",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-29T14:56:51.051308",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-29T14:56:52.516741",
+        "action": "stock.updated",
+        "note": "ready=True"
+      },
+      {
+        "at": "2025-12-29T14:56:57.551041",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-29T14:57:37.577896",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-29T14:59:28.780296",
+        "action": "finance.closed",
+        "note": "balance=0.0"
+      }
+    ]
+  },
+  {
+    "id": "JOB-EB271419",
+    "title": "DENEME X",
+    "customerId": "CST-13DC9D1D",
+    "customerName": "Nevsehir Pimapen",
+    "status": "MONTAJ_TERMIN",
+    "startType": "OLCU",
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": null
+    },
+    "offer": {
+      "lines": [],
+      "total": 50000.0,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": 15000,
+        "card": 20000,
+        "cheque": 0,
+        "cheques": []
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Rezervasyon: Lake Boya (Beyaz) (LKB-01) 10 kg — Mevcut: 25"
+    },
+    "production": {
+      "status": "MONTAJA_HAZIR",
+      "note": null
+    },
+    "assembly": {
+      "schedule": {
+        "date": "",
+        "note": "",
+        "team": "Ekip 1"
+      }
+    },
+    "finance": {},
+    "logs": [
+      {
+        "at": "2025-12-28T12:49:36.204740",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2025-12-28T12:49:42.359581",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-28T12:49:46.506963",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-28T12:50:20.791414",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2025-12-28T12:50:30.347654",
+        "action": "stock.updated",
+        "note": "ready=True"
+      },
+      {
+        "at": "2025-12-28T12:50:32.718747",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-29T15:32:49.304124",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-29T15:32:58.458035",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-29T15:33:02.151838",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-29T15:33:06.208442",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-29T15:44:16.175717",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-29T15:44:20.433785",
+        "action": "stock.updated",
+        "note": "ready=True"
+      },
+      {
+        "at": "2025-12-29T15:44:26.848269",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2025-12-29T15:44:31.293842",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-29T15:44:37.629571",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-29T15:47:34.756691",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2025-12-29T15:47:35.412338",
+        "action": "assembly.scheduled",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "JOB-559AC4D8",
+    "title": "DENEME Y",
+    "customerId": "CST-13DC9D1D",
+    "customerName": "Nevsehir Pimapen",
+    "status": "ONAY_BEKLIYOR",
+    "startType": "FIYATLANDIRMA",
+    "measure": {},
+    "offer": {
+      "lines": [],
+      "total": 45000.0,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": 18000,
+        "card": 15000,
+        "cheque": 12000,
+        "cheques": [
+          {
+            "amount": 12000,
+            "due": null
+          }
+        ]
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "logs": [
+      {
+        "at": "2025-12-28T12:42:37.388529",
+        "action": "created",
+        "note": "startType=FIYATLANDIRMA"
+      },
+      {
+        "at": "2025-12-28T12:42:49.212255",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-28T12:43:01.705830",
+        "action": "approval.started",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "JOB-1347D4F4",
+    "title": "XYZ",
+    "customerId": "CST-CB67C570",
+    "customerName": "Mudo Tech",
+    "status": "MONTAJA_HAZIR",
+    "startType": "OLCU",
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2025-12-31T13:27"
+      }
+    },
+    "offer": {
+      "lines": [],
+      "total": 35000.0,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": 25000,
+        "card": 15000,
+        "cheque": 13000,
+        "cheques": [
+          {
+            "amount": 13000,
+            "due": null
+          }
+        ]
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": null
+    },
+    "production": {
+      "status": "MONTAJA_HAZIR",
+      "note": null
+    },
+    "assembly": {},
+    "finance": {},
+    "logs": [
+      {
+        "at": "2025-12-28T12:26:44.044860",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2025-12-28T12:27:12.922351",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-28T12:27:18.195756",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-28T12:27:30.756864",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2025-12-28T12:27:34.530163",
+        "action": "stock.updated",
+        "note": "ready=True"
+      },
+      {
+        "at": "2025-12-28T12:27:42.391788",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-28T12:28:42.948726",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      }
+    ]
+  },
+  {
+    "id": "JOB-E8FEC074",
+    "title": "Deneme",
+    "customerId": "CST-12",
+    "customerName": "Nova Yapı",
+    "status": "MONTAJA_HAZIR",
+    "startType": "OLCU",
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": null
+    },
+    "offer": {
+      "lines": [],
+      "total": 45000.0,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": 25000,
+        "card": 10000,
+        "cheque": 10000,
+        "cheques": [
+          {
+            "amount": 10000,
+            "due": null
+          }
+        ]
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Laminat Kapak (LAM-KPK) - 1 adet (mevcut 220)"
+    },
+    "production": {
+      "status": "MONTAJA_HAZIR",
+      "note": null
+    },
+    "assembly": {},
+    "finance": {},
+    "logs": [
+      {
+        "at": "2025-12-28T12:05:12.352261",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2025-12-28T12:11:20.440880",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-28T12:11:36.713178",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-28T12:13:26.768934",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2025-12-30T14:32:07.004056",
+        "action": "stock.updated",
+        "note": "ready=True"
+      },
+      {
+        "at": "2025-12-30T14:32:11.449126",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      }
+    ]
+  },
+  {
+    "id": "JOB-8EFC32D9",
+    "title": "DENEME X",
+    "customerId": "CST-13",
+    "customerName": "Luna Home",
+    "status": "ONAY_BEKLIYOR",
+    "startType": "OLCU",
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": null
+    },
+    "offer": {
+      "lines": [],
+      "total": 0.0,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": 0,
+        "card": 0,
+        "cheque": 0,
+        "cheques": []
+      },
+      "contractUrl": null,
+      "stockNeeds": [
+        {
+          "sku": "MDF-18",
+          "qty": 20,
+          "name": "MDF 18mm",
+          "unit": "plaka"
+        },
+        {
+          "sku": "LAM-KPK",
+          "qty": 250,
+          "name": "Laminat Kapak",
+          "unit": "adet"
+        }
+      ]
+    },
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "logs": [
+      {
+        "at": "2025-12-28T11:28:46.770948",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2025-12-28T13:02:08.816065",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-28T13:02:10.208702",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-28T13:09:12.585801",
+        "action": "approval.started",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "JOB-E2B4ED30",
+    "title": "Deneme",
+    "customerId": "CST-12",
+    "customerName": "Nova Yapı",
+    "status": "URETIMDE",
+    "startType": "OLCU",
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": null
+    },
+    "offer": {
+      "lines": [],
+      "total": 0.0,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": 20000,
+        "card": 10000,
+        "cheque": 10000,
+        "cheques": [
+          {
+            "amount": 10000,
+            "due": null
+          }
+        ]
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": false,
+      "purchaseNotes": null
+    },
+    "production": {
+      "status": "URETIMDE",
+      "note": null
+    },
+    "assembly": {},
+    "finance": {},
+    "logs": [
+      {
+        "at": "2025-12-28T11:11:16.412109",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2025-12-28T12:59:10.236874",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-28T12:59:11.758809",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2025-12-29T15:08:53.521302",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2025-12-29T15:09:01.455436",
+        "action": "stock.updated",
+        "note": "ready=False"
+      },
+      {
+        "at": "2025-12-29T15:09:13.799622",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-29T15:35:46.161250",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      },
+      {
+        "at": "2025-12-29T15:36:07.440879",
+        "action": "production.updated",
+        "note": "URETIMDE"
+      }
+    ]
+  },
+  {
+    "id": "JOB-1024",
+    "title": "Yatak Odası Takımı",
+    "customerId": "CST-11",
+    "customerName": "Mert İç Mimarlık",
+    "status": "MONTAJA_HAZIR",
+    "startType": "OLCU",
+    "measure": {
+      "measurements": {
+        "room": "24m2",
+        "notes": "Köşe dolap"
+      },
+      "appointment": {
+        "date": "2025-12-15T10:00:00",
+        "note": "Yerinde ölçü"
+      }
+    },
+    "offer": {
+      "lines": [
+        {
+          "item": "Dolap",
+          "qty": 1,
+          "price": 180000
+        },
+        {
+          "item": "Karyola",
+          "qty": 1,
+          "price": 60000
+        }
+      ],
+      "total": 240000,
+      "status": "TEKLIF_TASLAK"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": 40000,
+        "card": 50000,
+        "cheque": 150000,
+        "cheques": [
+          {
+            "amount": 150000,
+            "due": "2026-01-15"
+          }
+        ]
+      },
+      "contractUrl": null,
+      "stockNeeds": [
+        {
+          "sku": "MDF-18",
+          "qty": 50
+        },
+        {
+          "sku": "MNT-SFT",
+          "qty": 80
+        }
+      ]
+    },
+    "stock": {
+      "ready": false,
+      "purchaseNotes": "Menteşe bekleniyor"
+    },
+    "production": {
+      "status": "MONTAJA_HAZIR",
+      "note": "Paketlendi"
+    },
+    "assembly": {
+      "schedule": {
+        "date": "2025-12-27T09:00:00",
+        "note": "Erken randevu",
+        "team": "Ekip-1"
+      }
+    },
+    "finance": {},
+    "logs": []
+  },
+  {
+    "id": "JOB-1040",
+    "title": "Ofis Bölme Duvarı",
+    "customerId": "CST-12",
+    "customerName": "Nova Yapı",
+    "status": "FIYATLANDIRMA",
+    "startType": "FIYATLANDIRMA",
+    "measure": {},
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "logs": []
+  }
+]

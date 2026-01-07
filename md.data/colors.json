@@ -1,0 +1,67 @@
+[
+  {
+    "id": "CLR-001",
+    "name": "Beyaz",
+    "code": "BYZ"
+  },
+  {
+    "id": "CLR-002",
+    "name": "Siyah",
+    "code": "SYH"
+  },
+  {
+    "id": "CLR-003",
+    "name": "Antrasit",
+    "code": "ANT"
+  },
+  {
+    "id": "CLR-004",
+    "name": "Krem",
+    "code": "KRM"
+  },
+  {
+    "id": "CLR-005",
+    "name": "Ceviz",
+    "code": "CVZ"
+  },
+  {
+    "id": "CLR-006",
+    "name": "Mese",
+    "code": "MSE"
+  },
+  {
+    "id": "CLR-007",
+    "name": "Gri",
+    "code": "GRI"
+  },
+  {
+    "id": "CLR-008",
+    "name": "Bordo",
+    "code": "BRD"
+  },
+  {
+    "id": "CLR-009",
+    "name": "Lacivert",
+    "code": "LCV"
+  },
+  {
+    "id": "CLR-010",
+    "name": "Fume",
+    "code": "FME"
+  },
+  {
+    "id": "CLR-91268EBE",
+    "name": "XYZ",
+    "code": "ABC"
+  },
+  {
+    "id": "CLR-B2193934",
+    "name": "sdsad",
+    "code": "DSADS"
+  },
+  {
+    "id": "CLR-72556DFB",
+    "name": "dwa",
+    "code": "DWA"
+  }
+]

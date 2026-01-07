@@ -1,0 +1,6 @@
+[
+  { "id": "RSV-01", "job": "JOB-1024", "item": "MDF 18mm", "qty": 40, "dueDate": "2025-12-25", "status": "Ayrıldı" },
+  { "id": "RSV-02", "job": "JOB-1055", "item": "Ray Takımı 45cm", "qty": 30, "dueDate": "2025-12-27", "status": "Ayrıldı" },
+  { "id": "RSV-03", "job": "JOB-1040", "item": "Menteşe Soft-Close", "qty": 60, "dueDate": "2025-12-28", "status": "Beklemede" }
+]
+

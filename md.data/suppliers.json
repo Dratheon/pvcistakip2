@@ -1,0 +1,7 @@
+[
+  { "id": "SUP-01", "name": "HingePro", "category": "Aksesuar", "contact": "hingepro@example.com", "rating": 4.7 },
+  { "id": "SUP-02", "name": "SlideTech", "category": "Ray Sistemleri", "contact": "slidetech@example.com", "rating": 4.4 },
+  { "id": "SUP-03", "name": "Nova Orman", "category": "Levyeler", "contact": "satis@novaorman.com", "rating": 4.6 },
+  { "id": "SUP-04", "name": "Colora", "category": "Boya", "contact": "destek@colora.com", "rating": 4.3 }
+]
+

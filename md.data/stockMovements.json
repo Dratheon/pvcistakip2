@@ -1,0 +1,7 @@
+[
+  { "id": "MOV-501", "date": "2025-12-22", "item": "MDF 18mm", "change": -30, "reason": "Kesim", "operator": "Ali Kurtuluş" },
+  { "id": "MOV-502", "date": "2025-12-22", "item": "Menteşe Soft-Close", "change": 150, "reason": "Satınalma PO-7781", "operator": "Seda Kurt" },
+  { "id": "MOV-503", "date": "2025-12-21", "item": "Ray Takımı 45cm", "change": -40, "reason": "Montaj sevkiyatı", "operator": "Serkan Yıldız" },
+  { "id": "MOV-504", "date": "2025-12-21", "item": "Lake Boya (Beyaz)", "change": -8, "reason": "Boya hattı", "operator": "Deniz Yılmaz" }
+]
+

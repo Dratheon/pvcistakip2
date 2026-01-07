@@ -1,0 +1,6 @@
+[
+  { "id": "SET-01", "label": "E-posta bildirimleri", "value": true, "description": "İş ve satınalma hareketlerinde e-posta gönder" },
+  { "id": "SET-02", "label": "SMS bildirimleri", "value": false, "description": "Kritik stok ve gecikmelerde SMS gönder" },
+  { "id": "SET-03", "label": "Otomatik yedekleme", "value": true, "description": "Günlük veri yedeği oluştur" }
+]
+
